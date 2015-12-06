@@ -1,24 +1,61 @@
 * {
     margin: 0;
+    padding: 0;
 }
+
 html, body {
     height: 100%;
-}
-.main-container {
-	min-height: 100%;
-    height: auto !important;
-    height: 100%;
-    margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
-}
-.content {
-	
-}
-footer {
-	height: 155px;
-	color:  red;
+    margin: 0;
+    padding: 0;
+	background-color: #F5DEB3;
+    font-family: 'Philosopher', sans-serif;
+	font-size: 20px;
 }
 
+header {
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-family: 'Lobster', cursive;
+}
 
-div {
-	/*border: 1px solid red !important;*/
+.simplyfied-row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.menu-col {
+	margin-left: 0px;
+    margin-right: 0px;
+	padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 10px;
+}
+
+.menu-col ul li a:hover, .menu-col ul li a:focus{
+    border-radius: 0px;
+}
+
+.content-col {
+	margin-right: 0px;
+	padding-right: 0px;	
+}
+
+ul{
+	background-color: black;
+	color: white;
+	font-family: 'Lobster', cursive;
+}
+
+h1{
+	font-family: 'Lobster', cursive;
+}
+
+h1 a, h1 a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.content-col div {
+	background-color: #F5DEB3;
 }
