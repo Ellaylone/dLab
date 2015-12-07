@@ -45,9 +45,10 @@ header {
     font-size: 20px;
 }
 
-.menu-col li a:hover, .menu-col li.dropdown.open a:focus, .menu-col li.dropdown.open>a{
+.menu-col li a:hover, .menu-col li.dropdown.open a:focus, .menu-col li.dropdown.open>a, .menu-col li.active a{
     color: #23527c;
     background-color: white;
+    border-radius: 0px;
 }
 
 /* dropdown */
