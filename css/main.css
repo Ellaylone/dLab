@@ -1,3 +1,4 @@
+/* global */
 * {
     margin: 0;
     padding: 0;
@@ -12,17 +13,19 @@ html, body {
 	font-size: 20px;
 }
 
+.simplyfied-row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+/* header */
 header {
 	text-align: center;
 	background-color: black;
 	color: white;
 }
 
-.simplyfied-row {
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
+/* menu column */
 .menu-col {
 	margin-left: 0px;
     margin-right: 0px;
@@ -35,9 +38,63 @@ header {
     border-radius: 0px;
 }
 
+.menu-col li a{
+    color: #337ab7;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+
+.menu-col li a:hover, .menu-col li.dropdown.open a:focus, .menu-col li.dropdown.open>a{
+    color: #23527c;
+    background-color: white;
+}
+
+/* dropdown */
+.dropdown-menu{
+    width: 100%;
+    background-color: inherit;
+    padding: 0px;
+    margin: 0px;
+    border: 0px solid black;
+}
+
+.menu-col li.dropdown{
+    margin: 0px;
+}
+
+li.dropdown.open{
+    margin-bottom: 144px;
+}
+
+.menu-col ul a.dropdown-toggle, .menu-col ul.dropdown-menu li{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 0px;
+}
+
+ul.dropdown-menu{
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+}
+
+.menu-col ul.dropdown-menu li{
+    padding: 0px;
+}
+
+.menu-col ul a.dropdown-toggle:hover, .menu-col ul a.dropdown-toggle:focus{
+    text-decoration: none;
+    background-color: white;
+}
+
+/* content column */
 .content-col {
 	margin-right: 0px;
 	padding-right: 0px;	
+}
+
+.content-col div {
+	background-color: #F5DEB3;
 }
 
 ul{
@@ -53,8 +110,4 @@ h1{
 h1 a, h1 a:hover{
     text-decoration: none;
     color: white;
-}
-
-.content-col div {
-	background-color: #F5DEB3;
 }
