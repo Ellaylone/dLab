@@ -5,7 +5,6 @@
 }
 
 body {
-    background: url('../images/mainbg.jpg');
     padding: 0px;
 }
 
@@ -14,7 +13,7 @@ html, body {
     margin: 0;
     padding: 0;
 	font-size: 20px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Arimo', sans-serif;
 }
 
 .simple-row {
@@ -25,13 +24,7 @@ html, body {
 /* header */
 header {
 	text-align: center;
-	background-color: #e7e7e7;
 	color: #777777;
-}
-
-header .navbar {
-    border-radius: 0px;
-    border: none;
 }
 
 /* content column */
@@ -39,9 +32,6 @@ header .navbar {
     position: relative;
     min-height: 100%;
     padding: 0 15px;
-    border-right: 1px solid #e5e5e5;
-    border-left: 1px solid #e5e5e5;
-    background-color: #e2e2e2;
 }
 
 .content-col {
@@ -50,24 +40,10 @@ header .navbar {
     padding-top: 20px;
 }
 
-h1, h2 {
-    font-weight: 700;
-}
-
 h1 {
-    font-style: italic;
-}
-
-h1 a, h1 a:hover {
-    text-decoration: none;
-    color: white;
+    font-weight: 700;
 }
 
 .thumbnail {
     margin: 10px auto;
-}
-
-/* fix bootstrap modal shifting bug #9855 */
-.modal-open {
-    padding-right: 15px !important;
 }
