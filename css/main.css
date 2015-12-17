@@ -66,3 +66,8 @@ h1 a, h1 a:hover {
 .thumbnail {
     margin: 10px auto;
 }
+
+/* fix bootstrap modal shifting bug #9855 */
+.modal-open {
+    padding-right: 15px !important;
+}
