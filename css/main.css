@@ -49,3 +49,9 @@ h1 {
 .thumbnail {
     margin: 10px auto;
 }
+
+@media (min-width: 1200px) {
+    .menu-col{
+        float: right !important;
+    }
+}
