@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    background-color: rgba(173, 20, 71, 0.14);
+}
+
 html, body {
     height: 100%;
     margin: 0;
@@ -11,7 +15,6 @@ html, body {
 	font-size: 20px;
     font-family: 'PT Sans', sans-serif;
     color: black;
-    background-color: rgba(173, 20, 71, 0.14);
 }
 
 .simple-row {
