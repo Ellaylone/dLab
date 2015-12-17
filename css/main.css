@@ -8,7 +8,6 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-	background-color: #F5DEB3;
 	font-size: 20px;
 }
 
@@ -20,8 +19,12 @@ html, body {
 /* header */
 header {
 	text-align: center;
-	background-color: black;
-	color: white;
+	background-color: #e7e7e7;
+	color: #777777;
+}
+
+header .navbar {
+    border-radius: 0px;
 }
 
 /* menu column */
@@ -46,59 +49,14 @@ header {
     border-radius: 0px;
 }
 
-/* dropdown */
-.dropdown-menu{
-    width: 100%;
-    background-color: inherit;
-    padding: 0px;
-    margin: 0px;
-    border: 0px solid black;
-}
-
-.menu-col .nav-stacked li{
-    margin: 0px;
-}
-
-li.dropdown.open{
-    margin-bottom: 144px;
-}
-
-.menu-col ul a.dropdown-toggle, .menu-col ul.dropdown-menu li{
-    display: block;
-    padding: 10px 15px;
-    text-decoration: none;
-    border-radius: 0px;
-}
-
-ul.dropdown-menu{
-    box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
-}
-
-.menu-col ul.dropdown-menu li{
-    padding: 0px;
-}
-
-.menu-col ul a.dropdown-toggle:hover, .menu-col ul a.dropdown-toggle:focus{
-    text-decoration: none;
-    background-color: white;
-}
-
 /* content column */
 .content-col {
 	margin-right: 0px;
-	padding-right: 0px;	
+	padding-right: 0px;
+    padding-top: 20px;
 }
 
-.content-col div {
-	background-color: #F5DEB3;
-}
-
-ul{
-	background-color: black;
-	color: white;
-}
-
-h1 a, h1 a:hover{
+h1 a, h1 a:hover {
     text-decoration: none;
     color: white;
 }
