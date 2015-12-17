@@ -11,7 +11,7 @@ html, body {
 	font-size: 20px;
     font-family: 'PT Sans', sans-serif;
     color: black;
-    background-color: #990033;
+    background-color: rgba(173, 20, 71, 0.14);
 }
 
 .simple-row {
