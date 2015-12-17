@@ -50,8 +50,16 @@ h1 {
     margin: 10px auto;
 }
 
+.gallery-image {
+    margin: 10px auto;
+}
+
 @media (min-width: 1200px) {
-    .menu-col{
+    .menu-col {
         float: right !important;
+    }
+
+    .gallery-image {
+        margin: 0 10px;
     }
 }
