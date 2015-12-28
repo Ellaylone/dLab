@@ -16,6 +16,10 @@ html, body {
 	font-size: 20px;
 }
 
+.container {
+    padding: 0px;
+}
+
 .simple-row {
     margin-right: -15px;
     margin-left: -15px;
@@ -24,6 +28,19 @@ html, body {
 header .navbar {
     border-radius: 0px;
     border: none;
+}
+
+header .navbar-nav {
+    margin: 0px;
+}
+
+header .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #FFFFFF;
+}
+
+header .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, header .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, header .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, header .navbar-default .navbar-nav .open .dropdown-menu>li.active>a {
+    color: #000000;
+    background-color: #FFFFFF;
 }
 
 .wrapper {
@@ -57,11 +74,7 @@ header {
 header .navbar {
     background-color: #000000;
     margin: 0px;
-    padding: 0 40px;
-}
-
-header .navbar li{
-    border-right: 1px solid #FFFFFF;
+    padding: 0;
 }
 
 header .navbar .navbar-nav>li.active>a, header .navbar .navbar-nav>li>a:hover, header .navbar .navbar-nav>li>a:focus, header .navbar .navbar-nav>li.active>a:hover, header .navbar .navbar-nav>li.active>a:focus, header .navbar-default .navbar-nav>.open>a, header .navbar-default .navbar-nav>.open>a:hover, header .navbar-default .navbar-nav>.open>a:focus{
@@ -110,4 +123,22 @@ header .navbar .navbar-nav>li>a{
 .carousel .item img {
     margin: 0 auto;
     
+}
+
+@media (min-width: 768px) {
+    header .navbar {
+        padding: 0 40px;
+    }
+
+    header .navbar li{
+        border-right: 1px solid #FFFFFF;
+    }
+
+    header .navbar-default .navbar-nav .open .dropdown-menu>li>a{
+        color: #000000;
+    }
+
+    header .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, header .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, header .navbar-default .navbar-nav .open .dropdown-menu>li.active>a{
+        background-color: #E2E2E2;
+    }
 }
