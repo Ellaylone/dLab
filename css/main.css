@@ -6,6 +6,7 @@
 body {
     padding: 0px;
     background-color: #E7E7E7;
+    font-family: 'Roboto', sans-serif;
 }
 
 html, body {
@@ -32,9 +33,8 @@ header .navbar {
     background-color: #FFFFFF;
 }
 
-.content-col {
-	margin-right: 0px;
-    padding-top: 20px;
+.content-col>h2:first-child {
+    margin-top: 0px;
 }
 
 h1, h2 {
@@ -43,7 +43,6 @@ h1, h2 {
 
 h1 a, h1 a:hover {
     text-decoration: none;
-    color: white;
 }
 
 blockquote p {
@@ -66,8 +65,8 @@ header .navbar li{
 }
 
 header .navbar .navbar-nav>li.active>a, header .navbar .navbar-nav>li:hover>a, header .navbar .navbar-nav>li:focus>a, header .navbar .navbar-nav>li.active:hover>a, header .navbar .navbar-nav>li.active:focus>a{
-    background-color: #000000;
-    color: #FFFFFF;
+    background-color: #FFFFFF;
+    color: #000000;
 }
 
 header .navbar .navbar-nav>li>a{
@@ -80,6 +79,6 @@ header .navbar .navbar-nav>li>a{
 }
 
 .header-title {
-    padding: 20px 30px;
+    padding: 10px 30px 20px;
     color: #337AB7;
 }
