@@ -64,7 +64,7 @@ header .navbar li{
     border-right: 1px solid #FFFFFF;
 }
 
-header .navbar .navbar-nav>li.active>a, header .navbar .navbar-nav>li:hover>a, header .navbar .navbar-nav>li:focus>a, header .navbar .navbar-nav>li.active:hover>a, header .navbar .navbar-nav>li.active:focus>a{
+header .navbar .navbar-nav>li.active>a, header .navbar .navbar-nav>li>a:hover, header .navbar .navbar-nav>li>a:focus, header .navbar .navbar-nav>li.active>a:hover, header .navbar .navbar-nav>li.active>a:focus, header .navbar-default .navbar-nav>.open>a, header .navbar-default .navbar-nav>.open>a:hover, header .navbar-default .navbar-nav>.open>a:focus{
     background-color: #FFFFFF;
     color: #000000;
 }
@@ -81,4 +81,33 @@ header .navbar .navbar-nav>li>a{
 .header-title {
     padding: 10px 30px 20px;
     color: #337AB7;
+}
+
+.carousel .item {
+    background-color: gray;
+    height: 431px;
+    overflow: hidden;
+}
+
+.carousel .item:first-child img, .carousel .item:nth-child(2) img {
+    height: 431px;
+    max-width: 1500px;
+    margin-left: -113px;
+}
+
+.carousel .item:nth-child(3) img {
+    height: 431px;
+    max-width: 1500px;
+    margin-left: -70px;
+}
+
+.carousel .item:last-child img {
+    height: 431px;
+    max-width: 2500px;
+    margin-left: -450px;
+}
+
+.carousel .item img {
+    margin: 0 auto;
+    
 }
