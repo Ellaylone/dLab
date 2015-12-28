@@ -1,12 +1,11 @@
-/* global */
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background: url('../images/background/mainbg.jpg');
     padding: 0px;
+    background-color: #E7E7E7;
 }
 
 html, body {
@@ -14,7 +13,6 @@ html, body {
     margin: 0;
     padding: 0;
 	font-size: 20px;
-    font-family: 'Playfair Display', serif;
 }
 
 .simple-row {
@@ -22,26 +20,16 @@ html, body {
     margin-left: -15px;
 }
 
-/* header */
-header {
-	text-align: center;
-	background-color: #F5DEB3;
-	color: #777777;
-}
-
 header .navbar {
     border-radius: 0px;
     border: none;
 }
 
-/* content column */
 .wrapper {
     position: relative;
     min-height: 100%;
     padding: 0 15px;
-    border-right: 1px solid #e5e5e5;
-    border-left: 1px solid #e5e5e5;
-    background-color: #F5DEB3;
+    background-color: #FFFFFF;
 }
 
 .content-col {
@@ -53,22 +41,9 @@ h1, h2 {
     font-weight: 700;
 }
 
-h1 {
-    font-style: italic;
-}
-
 h1 a, h1 a:hover {
     text-decoration: none;
     color: white;
-}
-
-.thumbnail {
-    margin: 10px auto;
-}
-
-/* fix bootstrap modal shifting bug #9855 */
-.modal-open {
-    padding-right: 15px !important;
 }
 
 blockquote p {
@@ -76,36 +51,35 @@ blockquote p {
     font-style: italic;
 }
 
-@media (max-width: 767px){
-    body.container {
-        padding: 0px;
-    }
-
-    .navbar-nav {
-        margin: 0 -15px;
-    }
+header {
+    margin-bottom: 50px;
 }
 
-header .navbar .collapse {
-    padding: 0px;
+header .navbar {
+    background-color: #000000;
+    margin: 0px;
+    padding: 0 40px;
 }
 
-ul {
-    padding-left: 22px;
+header .navbar li{
+    border-right: 1px solid #FFFFFF;
 }
 
-ul.facts .thumbnail, .recipe .thumbnail {
-    background: none;
-    border: none;
+header .navbar .navbar-nav>li.active>a, header .navbar .navbar-nav>li:hover>a, header .navbar .navbar-nav>li:focus>a, header .navbar .navbar-nav>li.active:hover>a, header .navbar .navbar-nav>li.active:focus>a{
+    background-color: #000000;
+    color: #FFFFFF;
 }
 
-.gallery div {
-    min-height: 335px;
+header .navbar .navbar-nav>li>a{
+    color: #FFFFFF;
 }
 
-@media (min-width: 992px){
-    .gallery div {
-        min-height: 180px;
-    }
+.header-break {
+    background-color: grey;
+    height: 300px;
 }
 
+.header-title {
+    padding: 20px 30px;
+    color: #337AB7;
+}
