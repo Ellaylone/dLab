@@ -9,11 +9,10 @@ html, body {
     margin: 0;
     padding: 0;
 	background-color: #F5DEB3;
-    font-family: 'Philosopher', sans-serif;
 	font-size: 20px;
 }
 
-.simplyfied-row {
+.simple-row {
     margin-right: -15px;
     margin-left: -15px;
 }
@@ -97,11 +96,6 @@ ul.dropdown-menu{
 ul{
 	background-color: black;
 	color: white;
-	font-family: 'Lobster', cursive;
-}
-
-h1{
-	font-family: 'Lobster', cursive;
 }
 
 h1 a, h1 a:hover{
