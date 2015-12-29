@@ -42,7 +42,7 @@ header .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, header .navb
 .wrapper {
     position: relative;
     min-height: 100%;
-    padding: 0 15px;
+    padding: 0 15px 50px;
     background-color: #FFFFFF;
 }
 
@@ -137,4 +137,9 @@ header .navbar .navbar-nav>li>a{
     header .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, header .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, header .navbar-default .navbar-nav .open .dropdown-menu>li.active>a{
         background-color: #E2E2E2;
     }
+}
+
+footer {
+    background-color: #000000;
+    height: 50px;
 }
